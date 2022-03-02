@@ -1,0 +1,3 @@
+[submodule "pages/old"]
+	path = pages/old
+	url = https://github.com/kaiyuanshe/Wiki.git
