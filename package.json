@@ -1,6 +1,6 @@
 {
   "name": "@idea2app/next-bootstrap-ts",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "React project scaffold based on TypeScript, Next.js & Bootstrap.",
   "private": true,
   "scripts": {
@@ -59,7 +59,7 @@
     "arrowParens": "avoid"
   },
   "lint-staged": {
-    "*.{html,md,less,json,yml,js,ts,tsx}": "prettier --write",
+    "*.{html,md,mdx,less,json,yml,js,jsx,ts,tsx}": "prettier --write",
     "*.{js,jsx,ts,tsx}": "eslint --fix"
   }
 }
