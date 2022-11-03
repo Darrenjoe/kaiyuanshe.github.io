@@ -33,17 +33,8 @@ class MainNav extends PureComponent<MainNavProps> {
       >
         <Container>
           <Navbar.Brand href="/">
-            <Image
-              className="me-3"
-              width={40}
-              src={logo || '/kaiyuanshe.png'}
-              alt="logo"
-            />
-            <svg className="logoTitle" viewBox="0 0 96 32">
-              <text x="0" y="68%">
-                {title}
-              </text>
-            </svg>
+            <Image className="me-3" width={40} src={logo} />
+            {title}
           </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
